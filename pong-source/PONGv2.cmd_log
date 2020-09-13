@@ -1,0 +1,328 @@
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+xst -intstyle ise -ifn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.xst" -ofn "/home/student2/rmsaad/COE758/PONGv2/PONGv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONGv2.ucf -p xc3s500e-fg320-5 PONGv2.ngc PONGv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONGv2_map.ncd PONGv2.ngd PONGv2.pcf 
+par -w -intstyle ise -ol high -t 1 PONGv2_map.ncd PONGv2.ncd PONGv2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONGv2.twx PONGv2.ncd -o PONGv2.twr PONGv2.pcf -ucf PONGv2.ucf 
+bitgen -intstyle ise -f PONGv2.ut PONGv2.ncd 
